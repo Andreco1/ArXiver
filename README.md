@@ -122,19 +122,3 @@ npm run doctor
 npx tsc --noEmit
 npm test
 ```
-
-## Privacy
-
-Do not commit local config or generated research data. The `.gitignore` excludes:
-
-- `config/profile.yml`
-- `config/scoring.yml`
-- `config/sources.yml`
-- `data/`
-- `papers/`
-- `analyses/`
-- `reports/`
-- `digests/`
-- `previews/`
-- `.env*`
-- `.omc/`
