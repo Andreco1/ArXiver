@@ -1,0 +1,32 @@
+researcher:
+  name: ""
+  field: ""
+  affiliation: ""
+
+research_interests:
+  primary:
+    - ""
+  secondary:
+    - ""
+
+open_problems:
+  - title: ""
+    description: ""
+    keywords: []
+
+methods_of_interest:
+  - ""
+
+methods_to_avoid:
+  - ""
+
+preferred_paper_types:
+  - theoretical
+  - empirical 
+  - benchmark 
+  - survey
+  - systems
+  - applied 
+
+notes: |
+  Add any context that helps ArXiver understand what is relevant to you.

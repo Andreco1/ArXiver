@@ -1,0 +1,48 @@
+# Personal researcher configuration
+config/profile.yml
+config/scoring.yml
+config/sources.yml
+config/*.local.yml
+
+# Local paper state and queue
+data/
+!data/.gitkeep
+
+# Generated local outputs
+reports/
+digests/
+previews/
+analyses/
+
+# Downloaded or cached paper assets
+papers/
+pdfs/
+cache/
+tmp/
+.cache/
+
+# Provider credentials / local env
+.env
+.env.*
+!.env.example
+
+# Local agent/tool state
+.omc/
+.claude/settings.local.json
+
+# Logs and diagnostics
+logs/
+*.log
+*.tmp
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/

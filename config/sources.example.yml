@@ -1,0 +1,14 @@
+arxiv:
+  categories:
+    - cs.AI
+    - cs.LG 
+    - stat.ML 
+  
+  max_results_per_scan: 50 
+
+  sort_by: submittedDate
+  sort_order: descending
+
+  lookback_days: 7
+
+  download_dir: papers

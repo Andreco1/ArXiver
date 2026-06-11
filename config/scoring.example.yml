@@ -1,0 +1,23 @@
+scale:
+  min: 1
+  max: 5
+
+weights:
+  novelty: 0.25
+  open_problem_fit: 0.35
+  methodological_relevance: 0.25
+  result_importance: 0.10
+  readability: 0.05
+
+thresholds:
+  must_read: 4.3
+  skim: 3.6
+  maybe: 3.0
+  ignore_for_now: 0.0 
+
+dimensions:
+  novelty: "Does the paper seem to introduce a genuinely new idea, result, benchmark, method, or perspective?"
+  open_problem_fit: "How closely does the paper relate to the researcher's active open problems?"
+  methodological_relevance: "Does the paper use or develop methods the researcher cares about?"
+  result_importance: "Are the claimed results likely to matter for the field or the researcher's work?"
+  readability: "Can the paper be productively read soon, given apparent complexity and relevance?"

@@ -1,0 +1,47 @@
+{
+  "name": "arxiver",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ArXiver is a tool that helps researcher curate the papers they read",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "scan": "tsx scripts/scan-arxiv.ts",
+    "evaluate": "tsx scripts/evaluate-papers.ts",
+    "digest": "tsx scripts/generate-digest.ts",
+    "queue": "tsx scripts/manage-queue.ts",
+    "tui": "tsx scripts/tui.tsx",
+    "analyze": "tsx scripts/analyze-paper.ts",
+    "doctor": "tsx scripts/doctor.ts",
+    "preview": "tsx scripts/generate-preview.ts",
+    "test": "node --test --import tsx test/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soymou/ArXiver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soymou/ArXiver/issues"
+  },
+  "homepage": "https://github.com/soymou/ArXiver#readme",
+  "dependencies": {
+    "fast-xml-parser": "^5.8.0",
+    "ink": "^7.0.5",
+    "katex": "^0.17.0",
+    "marked": "^18.0.5",
+    "pdf-parse": "^2.4.5",
+    "react": "^19.2.7",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
